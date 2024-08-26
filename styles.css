@@ -44,6 +44,10 @@ body {
     margin-left: auto; /* Empuja el ícono de opciones a la derecha */
 }
 
+.post-header i {
+    font-size: 30px; /* Tamaño de ícono más pequeño */
+}
+
 
 .post-image img {
     width: 100%;
@@ -53,6 +57,10 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 10px 15px; 
+}
+
+.post-icons i {
+    font-size: 30px; /* Tamaño de íconos */
 }
 
 .post-icons i:nth-child(1),
