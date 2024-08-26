@@ -16,13 +16,13 @@ body {
 
 .post-header {
     display: flex;
-    justify-content: space-between; /* Alinea los elementos a los extremos */
+    justify-content: space-between; 
     align-items: center; /* Alinea verticalmente los íconos y el texto */
     padding: 10px;
 }
 
 .post-header i:first-child {
-    margin-right: 10px; /* Espacio entre el ícono HTML5 y el texto */
+    margin-right: 10px; 
 }
 
 .post-header p {
@@ -33,11 +33,11 @@ body {
 .post-header .header-text {
     display: flex;
     flex-direction: column;
-    line-height: 1; /* Ajusta la altura de línea para reducir el espacio entre líneas */
+    line-height: 1;
 }
 
 .post-header p:first-child {
-    font-weight: bold; /* Destacar el nombre */
+    font-weight: bold; 
 }
 
 .post-header i:last-child {
