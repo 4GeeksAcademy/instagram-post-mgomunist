@@ -51,8 +51,8 @@ body {
 
 .post-icons {
     display: flex;
-    justify-content: space-between; /* Distribuye los elementos entre los extremos */
-    padding: 10px 15px; /* Añade algo de espacio alrededor de los íconos */
+    justify-content: space-between;
+    padding: 10px 15px; 
 }
 
 .post-icons i:nth-child(1),
