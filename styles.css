@@ -1,9 +1,8 @@
-body{
-
+body {
     margin: 0px;
     padding: 0px;
     padding-bottom: 50px;
-    background-color:black;
+    background-color: black;
     font-family: "Roboto";
     font-style: normal;
 }
@@ -17,18 +16,55 @@ body{
 
 .post-header {
     display: flex;
-    justify-content:flex-start;
-    padding-left: 10px;
-    padding-right: 10px;
+    justify-content: space-between; /* Alinea los elementos a los extremos */
+    align-items: center; /* Alinea verticalmente los íconos y el texto */
+    padding: 10px;
+}
+
+.post-header i:first-child {
+    margin-right: 10px; /* Espacio entre el ícono HTML5 y el texto */
 }
 
 .post-header p {
-    color: gray;
+    margin: 0;
+    color: black;
 }
+
+.post-header .header-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1; /* Ajusta la altura de línea para reducir el espacio entre líneas */
+}
+
+.post-header p:first-child {
+    font-weight: bold; /* Destacar el nombre */
+}
+
+.post-header i:last-child {
+    margin-left: auto; /* Empuja el ícono de opciones a la derecha */
+}
+
 
 .post-image img {
     width: 100%;
 }
+
+.post-icons {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos entre los extremos */
+    padding: 10px 15px; /* Añade algo de espacio alrededor de los íconos */
+}
+
+.post-icons i:nth-child(1),
+.post-icons i:nth-child(2),
+.post-icons i:nth-child(3) {
+    margin-right: 10px; /* Espacio entre los primeros tres íconos */
+}
+
+.post-icons i:last-child {
+    margin-left: auto; /* Empuja el ícono de bookmark a la derecha */
+}
+
 
 .post-body {
     align-items: center;
@@ -42,7 +78,6 @@ body{
 }
 
 .post-body p:nth-child(2) {
-    margin-top: 20px;
-    
+    margin-top: 10px;
     text-align: justify;
 }
